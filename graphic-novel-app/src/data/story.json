@@ -1,0 +1,146 @@
+{
+  "scenes": [
+    {
+      "id": "start",
+      "image": "placeholder_start.png",
+      "text": "You stand at a crossroads. Which path will you choose?",
+      "choices": [
+        {
+          "text": "Take the left path.",
+          "nextSceneId": "left_path"
+        },
+        {
+          "text": "Take the right path.",
+          "nextSceneId": "right_path"
+        }
+      ]
+    },
+    {
+      "id": "left_path",
+      "image": "placeholder_left.png",
+      "text": "The left path leads to a dark forest. A mysterious figure emerges.",
+      "choices": [
+        {
+          "text": "Approach the figure.",
+          "nextSceneId": "figure_approach"
+        },
+        {
+          "text": "Run away.",
+          "nextSceneId": "run_away"
+        }
+      ]
+    },
+    {
+      "id": "right_path",
+      "image": "placeholder_right.png",
+      "text": "The right path leads to a sunny meadow. You see a sparkling river.",
+      "choices": [
+        {
+          "text": "Follow the river.",
+          "nextSceneId": "river_follow"
+        },
+        {
+          "text": "Explore the meadow.",
+          "nextSceneId": "meadow_explore"
+        }
+      ]
+    },
+    {
+      "id": "figure_approach",
+      "image": "placeholder_figure.png",
+      "text": "The figure reveals themselves to be a wise old wizard. They offer you a quest.",
+      "choices": [
+        {
+          "text": "Accept the quest.",
+          "nextSceneId": "quest_accepted"
+        },
+        {
+          "text": "Decline the quest.",
+          "nextSceneId": "quest_declined"
+        }
+      ]
+    },
+    {
+      "id": "run_away",
+      "image": "placeholder_run.png",
+      "text": "You run back to the crossroads, heart pounding. You decide to try the other path.",
+      "choices": [
+        {
+          "text": "Go back to the start.",
+          "nextSceneId": "start"
+        }
+      ]
+    },
+    {
+      "id": "river_follow",
+      "image": "placeholder_river.png",
+      "text": "Following the river, you discover a hidden waterfall and a peaceful glade.",
+      "choices": [
+        {
+          "text": "Rest by the waterfall.",
+          "nextSceneId": "waterfall_rest"
+        },
+        {
+          "text": "Continue exploring.",
+          "nextSceneId": "explore_further"
+        }
+      ]
+    },
+    {
+      "id": "meadow_explore",
+      "image": "placeholder_meadow.png",
+      "text": "Exploring the meadow, you find a field of rare, glowing flowers.",
+      "choices": [
+        {
+          "text": "Pick a flower.",
+          "nextSceneId": "flower_picked"
+        },
+        {
+          "text": "Leave them be.",
+          "nextSceneId": "flowers_left"
+        }
+      ]
+    },
+    {
+      "id": "quest_accepted",
+      "image": "placeholder_quest_accepted.png",
+      "text": "You embark on a grand adventure!",
+      "choices": []
+    },
+    {
+      "id": "quest_declined",
+      "image": "placeholder_quest_declined.png",
+      "text": "You politely decline and return to the crossroads.",
+      "choices": [
+        {
+          "text": "Go back to the start.",
+          "nextSceneId": "start"
+        }
+      ]
+    },
+    {
+      "id": "waterfall_rest",
+      "image": "placeholder_waterfall_rest.png",
+      "text": "You feel refreshed and at peace.",
+      "choices": []
+    },
+    {
+      "id": "explore_further",
+      "image": "placeholder_explore_further.png",
+      "text": "You find a hidden cave!",
+      "choices": []
+    },
+    {
+      "id": "flower_picked",
+      "image": "placeholder_flower_picked.png",
+      "text": "The flower glows brightly in your hand.",
+      "choices": []
+    },
+    {
+      "id": "flowers_left",
+      "image": "placeholder_flowers_left.png",
+      "text": "You admire their beauty and move on.",
+      "choices": []
+    }
+  ]
+}
